@@ -4,13 +4,22 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/script.js"></script>
 		<title>Acceuil</title>
 	</head>
 	<body>
 		<header>
 			<div class="header-grid">
-				<p class="header-grid-item"><span class="icon-menu"></span></p>
-				<p class="header-grid-item"><span class="icon-home3"></span></p>
+				<p
+					class="header-grid-item"
+					id="hamburger-menu-button"
+					onclick="openNav();"
+				>
+					<span class="icon-menu"></span>
+				</p>
+				<p class="header-grid-item">
+					<span class="icon-home3"> </span>
+				</p>
 				<div class="header-separator"></div>
 				<p class="header-grid-item">Cours</p>
 				<p class="header-grid-item">Exercices</p>
@@ -23,7 +32,13 @@
 				</p>
 			</div>
 		</header>
-		<nav></nav>
+		<nav>
+			<p class="nav-grid-item">1</p>
+			<p class="nav-grid-item">2</p>
+			<p class="nav-grid-item">3</p>
+			<p class="nav-grid-item">4</p>
+			<p class="nav-grid-item">5</p>
+		</nav>
 		<main></main>
 	</body>
 </html>
